@@ -65,6 +65,9 @@ Rails.application.routes.draw do
   post "/coronavirus-form/business-details" => "coronavirus_form/business_details#submit"
 
   # Question 12
+  get "/coronavirus-form/business-details" => "coronavirus_form/business_details#show"
+  post "/coronavirus-form/business-details" => "coronavirus_form/business_details#submit"
+
   get "/coronavirus-form/contact-details" => "coronavirus_form/contact_details#show"
   post "/coronavirus-form/contact-details" => "coronavirus_form/contact_details#submit"
 
